@@ -1,0 +1,47 @@
+{
+  "name": "ct_af-it",
+  "version": "0.1.0",
+  "private": true,
+  "author": "",
+  "scripts": {
+    "build": "vite build",
+    "i18n:report": "vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\"",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@vueuse/core": "^10.7.1",
+    "axios": "^1.6.5",
+    "boxicons": "^2.1.4",
+    "chart.js": "^4.4.1",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "cors": "^2.8.5",
+    "date-fns": "^3.0.6",
+    "firebase": "^10.7.1",
+    "hammerjs": "^2.0.8",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "node-fetch": "^3.3.2",
+    "swiper": "^6.8.4",
+    "three": "^0.160.0",
+    "vue": "^3.2.47",
+    "vue-datepicker": "^1.3.0",
+    "vue-i18n": "^9.1.0",
+    "vue-router": "^4.1.6",
+    "vue2-google-maps": "^0.10.7",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0",
+    "vuex-plugin-persistedstate": "^1.0.6"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^3.0.0",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "@vue/cli-plugin-typescript": "^5.0.8",
+    "vite": "^4.3.2",
+    "vue-cli-plugin-i18n": "~2.3.2"
+  },
+  "license": "ISC",
+  "type": "module"
+}

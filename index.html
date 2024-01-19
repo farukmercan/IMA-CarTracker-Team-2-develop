@@ -1,0 +1,49 @@
+//Hauptersteller: Tom Bernauer
+// Nebenersteller: Faruk Mercan
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000" />
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet" />
+  <meta name="description" content="Web site created using Locofy" />
+  <title>Cartracker</title>
+
+  <!-- Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.4.4/build/global/luxon.min.js"></script>
+  <!-- Chart.js Adapter for Luxon -->
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.3.1/dist/chartjs-adapter-luxon.umd.min.js"></script>
+  <!-- Chart.js Streaming Plugin -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@2.0.0/dist/chartjs-plugin-streaming.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-zoom/2.0.1/chartjs-plugin-zoom.min.js"
+    integrity="sha512-wUYbRPLV5zs6IqvWd88HIqZU/b8TBx+I8LEioQ/UC0t5EMCLApqhIAnUg7EsAzdbhhdgW07TqYDdH3QEXRcPOQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=&libraries=places:268&callback=initMap"></script>
+
+
+</head>
+
+<body style="margin: 0; line-height: normal">
+  <div id="app"></div>
+  <!-- Vue.js Component -->
+  <script type="module" src="/src/main.js"></script>
+  <!-- Vue.js Komponentenlogik -->
+  <script type="module" src="/src/components/ChartGeschwindigkeit.vue"></script>
+
+</body>
+
+</html>
